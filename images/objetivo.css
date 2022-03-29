@@ -1,0 +1,112 @@
+* {
+margin: 0;
+padding: 0;
+font-family: 'VT323', monospace;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-image: url(./GettyImages-916966524.jpg);
+
+}
+
+header {
+    height: 100vh;
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+}
+
+.foto-perfil {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 5px solid darkorange;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+
+nav {
+    width: 25vw;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.links li {
+   margin: 20px;
+}
+
+
+a {
+  text-decoration: none;
+  color: darkorange;
+  font-size: 30px;
+  
+}
+
+a:hover {
+    font-size: 35px;
+    color: darkcyan;
+}
+
+
+main {
+    margin-left: 7%;
+}
+
+.caixa {
+    height: 450px;
+    width: 800px;
+    border: 5px solid darkorange;
+    background-color: black;
+    padding: 0px;
+    position: fixed;
+    top: 60px;
+}
+
+.caixa img {
+    height: 200px;
+    width: 230px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    
+}
+
+.frase {
+    font-size: 6em;
+    color: darkcyan;
+    position: absolute;
+    top: 25px;
+    left: 15px;
+
+}
+
+.objetivos {
+    color: darkorange;
+    position: absolute;
+    top: 170px;
+    left: 20px;
+    font-size: 37px;
+}
+
+.entrelinhas {
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
+    color: darkcyan;
+    top: 240px;
+    left: 110px;
+}
+
+
+
+
